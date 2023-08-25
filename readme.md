@@ -2,7 +2,7 @@
 
 Electron application that allows you to scrape website data.
 
-![Screenshot from 2023-08-25 22-13-08](https://github.com/vikkastiwari/web-scrapper/assets/51874681/8459b225-e326-4637-b952-1a73b12ba940)
+![Screenshot from 2023-08-25 22-40-47](https://github.com/vikkastiwari/web-scrapper/assets/51874681/ecdfc953-a12a-4c97-87b3-fae298824b6a)
 
 ## Usage
 
