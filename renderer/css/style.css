@@ -3,10 +3,13 @@ body {
   background-color: #f4f4f4;
   margin: 0;
   padding: 0;
+  font-size: 12px;
 }
 
 .container {
   display: flex;
+  flex-direction: column;
+  gap: 24px;
   justify-content: center;
   align-items: center;
   background-color: #e3ffe4;
@@ -56,7 +59,7 @@ button[type="submit"] {
   margin-bottom: 12px;
 }
 
-a {
+.download a {
   display: block;
   text-align: center;
   text-decoration: none;
@@ -87,8 +90,34 @@ button[type="submit"]:hover {
 .enabled {
   background-color: #4CAF50;
   cursor: pointer;
+  display: block;
+  padding: 10px;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none;
 }
 
 .enabled:hover {
   background-color: #45a049;
+}
+
+.copyright {
+  color: rgb(73, 69, 69);
+}
+
+.copyright--folio:link,
+.copyright--folio:visited {
+  text-decoration: none;
+  color: rgb(73, 69, 69);
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  transition: all 0.3s;
+}
+
+.copyright--folio:hover,
+.copyright--folio:active {
+  color: rgb(39, 37, 37);
+  border-bottom: 1px solid transparent;
 }

@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-  <div class="container">
+  <main class="container">
     <form class="login-form" id="loginForm">
       <h2>Website Scraper</h2>
       <div class="form-group">
@@ -22,9 +22,12 @@
         <input type="password" id="password" name="password" required>
       </div>
       <button type="submit">Scrape</button>
-      <a class="disabled" download="scraped_data.xlsx" id="download-report">Download Report</a>
+      <a class="download disabled" download="scraped_data.xlsx" id="download-report">Download Report</a>
     </form>
-  </div>
+    <div class="copyright">
+      datascraper &copy; <span class="year">2027</span>  - <a class="copyright--folio" href="https://iamvikkastiwari.web.app">Vikas Tiwari</a>
+    </div>
+  </main>
   <script src="js/renderer.js"></script>
 </body>
 </html>
