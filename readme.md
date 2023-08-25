@@ -4,10 +4,6 @@ Electron application that allows you to scrape website data.
 
 ![Screenshot from 2023-08-25 22-13-08](https://github.com/vikkastiwari/web-scrapper/assets/51874681/8459b225-e326-4637-b952-1a73b12ba940)
 
-## Url
-
-Currently, it scrapes static publicly available data from this URL -> https://www.gst.gov.in/help/helpmodules/
-
 ## Usage
 
 Install dependencies:
@@ -21,6 +17,12 @@ Run:
 
 ```bash
 npm start
+```
+
+Currently, it scrapes static publicly available data from below mentioned URL
+
+```bash
+https://www.gst.gov.in/help/helpmodules/
 ```
 
 You can also use `Electronmon` to constantly run and not have to reload after making changes
